@@ -3,7 +3,7 @@ let turn = "x";
 let squares = [];
 let gameOver = false;
 function end(num1, num2, num3) {
-  title.innerHTML = `${squares[1]} winner`;
+  title.innerHTML = `${squares[num1]} winner`;
   document.getElementById("block" + num1).style.background = "#000";
   document.getElementById("block" + num2).style.background = "#000";
   document.getElementById("block" + num3).style.background = "#000";
