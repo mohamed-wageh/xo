@@ -54,7 +54,7 @@ function winner() {
     squares[7] == squares[9] &&
     squares[7] != ""
   ) {
-    end(7, 8, 0);
+    end(7, 8, 9);
     gameOver = true;
   }
   //cols compare
